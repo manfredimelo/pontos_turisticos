@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['pontosturisticos5.herokuapp.com', 'fast-headland-54906.herokuapp.com', 'localhost:8000']
+ALLOWED_HOSTS = ['fast-headland-54906.herokuapp.com', 'localhost:8000']
 
 
 # Application definition
